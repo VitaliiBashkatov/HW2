@@ -25,7 +25,7 @@ body {
 }
 
 
-/*		Header: */
+/*		Header   */
 header {
 	display: flex;
 	grid-area: header;
@@ -45,7 +45,7 @@ header {
 }
 
 
-/* 		Intro */
+/* 		Intro   */
 .intro {
 	background-color: #666;
 	display: grid;
@@ -54,7 +54,7 @@ header {
 	grid-auto-rows: 45vw;
 	grid-gap: 5px;
 	justify-content: space-between;
-	padding: 35px 10px 10px 10px;
+	padding: 35px 10px 10px;
 }
 
 .intro__img img  {
@@ -78,7 +78,7 @@ header {
 .main__item:first-child {
 	background-color: #913B50;
 	flex-grow: 2;
-	margin:0 0 5px 0;
+	margin: 0 0 5px;
 }
 
 .main__item:last-child {
@@ -145,7 +145,7 @@ nav li a:hover {
 }
 
 
-/*		Footer: ;*/
+/*		Footer  */
 footer {
 	background-color: black;
 	grid-area: footer;
@@ -196,7 +196,7 @@ footer {
 	}
 
 	.main__item:first-child {
-		margin: 0 5px 0 0;
+		margin: 0 5px 0;
 	}
 
 	
